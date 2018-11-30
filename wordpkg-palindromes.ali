@@ -1,0 +1,56 @@
+V "GNAT Lib v2014"
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U wordpkg.palindromes%b	wordpkg-palindromes.adb	a238f9d4 NE OO PK GE
+W wordpkg%s		wordpkg.adb		wordpkg.ali
+
+U wordpkg.palindromes%s	wordpkg-palindromes.ads	f5cf9e79 BN EE NE OO PK GE
+W wordpkg%s		wordpkg.adb		wordpkg.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-textio.ads		20140406181359 386df5d4 ada.text_io%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-cstrea.ads		20140406181357 febc86ed interfaces.c_streams%s
+D system.ads		20140406181356 bd760655 system%s
+D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-ficobl.ads		20140406181355 078245e4 system.file_control_block%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+D wordpkg.ads		20181125223604 c204a758 wordpkg%s
+D wordpkg-palindromes.ads  20181125232428 37cb3921 wordpkg.palindromes%s
+D wordpkg-palindromes.adb  20181126183431 95f3c0f5 wordpkg.palindromes%b
+X 28 wordpkg.ads
+10k9*WordPkg 54e12 29|6r9 8r5 30|1r14 18r5
+12R10*word 52e15 29|7r24 30|2r24
+50a9 Letters{string} 30|12r22 12r42
+51i9 Length{natural} 30|5r14 6r31 8r32 12r52
+X 29 wordpkg-palindromes.ads
+6k17 Palindromes 28|10k9 29|8l13 8e24 30|1b22 18l13 18t24
+7V14*is_Pal{boolean} 7>21 30|2b14 17l9 17t15
+7r21 w{28|12R10} 30|2b21 5r12 6r29 8r30 12r20 12r40 12r50
+X 30 wordpkg-palindromes.adb
+3i9 loop_end{natural} 6m17 8m17 11r21
+11i13 i{integer} 12r30 12r61
+

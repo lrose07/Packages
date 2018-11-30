@@ -1,0 +1,113 @@
+V "GNAT Lib v2014"
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U wordpkg%b		wordpkg.adb		5d12b47c NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U wordpkg%s		wordpkg.ads		fa69528c BN EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-textio.ads		20140406181359 386df5d4 ada.text_io%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-cstrea.ads		20140406181357 febc86ed interfaces.c_streams%s
+D system.ads		20140406181356 bd760655 system%s
+D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-ficobl.ads		20140406181355 078245e4 system.file_control_block%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+D wordpkg.ads		20181125223604 c204a758 wordpkg%s
+D wordpkg.adb		20181122142815 a77be6f0 wordpkg%b
+X 1 ada.ads
+16K9*Ada 19e8 28|5r6 5r23 29|5r6 5r23
+X 7 a-textio.ads
+49K13*Text_IO 471e16 28|5w10 5r27 29|5w10 5r27
+52P9*File_Type 28|40r27 44r27 29|70r39 93r31 131r31
+117V13*Standard_Input{52P9} 29|127s22
+118V13*Standard_Output{52P9} 29|140s22
+168U14*Skip_Line 29|78s33
+183V13*End_Of_File{boolean} 29|75s35 101s43
+205U14*Get 29|83s33 107s33
+207U14*Put 29|134s25
+210U14*Look_Ahead 29|76s25 102s33
+X 28 wordpkg.ads
+8i1 MaxWordSize{natural} 50r28 29|26r24 110r50
+10k9*WordPkg 8z1 49E10 54l5 54e12 29|6b14 143l5 143t12
+12R10*word 17r45 20r29 28r27 29r28 30r26 31r27 32r27 40r49 41r31 44r45 45r27
+. 49c10 52e15 29|9r49 10r26 18r33 32r31 38r32 50r30 55r31 60r31 93r53 125r35
+. 131r49 138r31
+14X5*WordTooLong 29|120r39
+17V14*New_Word{12R10} 17>23 29|9b18 15l13 15t21
+17a23 Item{string} 29|9b27 12r35 12r51 13r34
+20V14*Length{natural} 20>22 29|18b18 21l13 21t19 133s29
+20r22 Item{12R10} 29|18b26 20r24
+23V14*Max_Word_Size{positive} 29|24b18 27l13 27t26
+28V15*"="{boolean} 28>20 28>23 29|32b19 36l14 36t16 52s42
+28r20 X{12R10} 29|32b24 34r24 35r25 35r38
+28r23 Y{12R10} 29|32b27 34r35 35r50 35r63
+29V15*"<="{boolean} 29>21 29>24 29|38b19 48l14 48t17 52s26 62s31
+29r21 X{12R10} 29|38b25 40r42 41r28 43r31 47r24
+29r24 Y{12R10} 29|38b28 40r52 41r43 43r46 47r36
+30V15*"<"{boolean} 30>19 30>22 29|50b19 53l14 53t16 57s31
+30r19 X{12R10} 29|50b23 52r24 52r40
+30r22 Y{12R10} 29|50b26 52r29 52r44
+31V15*">="{boolean} 31>20 31>23 29|55b19 58l14 58t17
+31r20 X{12R10} 29|55b24 57r29
+31r23 Y{12R10} 29|55b27 57r33
+32V15*">"{boolean} 32>20 32>23 29|60b19 63l14 63t16
+32r20 X{12R10} 29|60b24 62r29
+32r23 Y{12R10} 29|60b27 62r34
+40U15*Get 40>20 40<38 29|93b19 123l13 123t16 127s17
+40p20 File{7|52P9} 29|93b24 99r34 101r56 102r45 107r38
+40r38 Item{12R10} 29|93b42 98m17 110r36 115m41 115r56 116m41 116r54
+41U15*Get 41<20 29|125b19 128l13 128t16
+41r20 Item{12R10} 29|125b24 127m38
+44U15*Put 44>20 44>38 29|131b19 136l13 136t16 140s17
+44p20 File{7|52P9} 29|131b24 134r30
+44r38 Item{12R10} 29|131b42 133r36 134r36
+45U15*Put 45>20 29|138b19 141l13 141t16
+45r20 Item{12R10} 29|138b24 140r39
+50a9 Letters{string} 29|12m24 35r27 35r52 41r30 41r45 43r33 43r48 116m46
+. 134r41
+51i9 Length{natural} 29|13m24 20r29 34r26 34r37 35r40 35r65 40r44 40r54 47r26
+. 47r38 98m22 110r41 115m46 115r61 116r59
+X 29 wordpkg.adb
+10r17 A_Word{28|12R10} 12m17 13m17 14r24
+40i21 I{integer} 41r38 41r53 43r41 43r56
+70V18 Another_Word{boolean} 70b18 70>32 87l13 87t25 99s20
+70p32 File{7|52P9} 75r48 76r37 78r44 83r38
+71e17 C{character} 76m43 80r36 80r49 83m44
+72b17 End_Line{boolean} 76m46 77r28
+94e17 C{character} 102m51 105r43 105r59 107m44 116r70
+95b17 End_Line{boolean} 102m54 104r43
+96b17 TooLong{boolean} 111m41 114r40 119r28
+133i21 I{integer} 134r49
+

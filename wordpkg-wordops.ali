@@ -1,0 +1,82 @@
+V "GNAT Lib v2014"
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U wordpkg.wordops%b	wordpkg-wordops.adb	de9c8016 NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W wordpkg%s		wordpkg.adb		wordpkg.ali
+
+U wordpkg.wordops%s	wordpkg-wordops.ads	09dd297d BN EE NE OO PK GE IL
+W wordpkg%s		wordpkg.adb		wordpkg.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-charac.ads		20140406181359 2d3ec45b ada.characters%s
+D a-chahan.ads		20140406181359 1601a50f ada.characters.handling%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-textio.ads		20140406181359 386df5d4 ada.text_io%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-cstrea.ads		20140406181357 febc86ed interfaces.c_streams%s
+D system.ads		20140406181356 bd760655 system%s
+D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-ficobl.ads		20140406181355 078245e4 system.file_control_block%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+D wordpkg.ads		20181125223604 c204a758 wordpkg%s
+D wordpkg-wordops.ads	20181122142844 cbd98e25 wordpkg.wordops%s
+D wordpkg-wordops.adb	20181126195532 0344ab3c wordpkg.wordops%b
+X 1 ada.ads
+16K9*Ada 19e8 32|1r6 1r35 7r31 14r30
+X 2 a-charac.ads
+16K13*Characters 18e19 32|1r10 1r39 7r35 14r34
+X 3 a-chahan.ads
+36K24*Handling 159e28 32|1w21 1r50 7r46 14r45
+46V13*Is_Letter{boolean} 32|23s28 38s28
+71V13*To_Upper{string} 32|7s55 14s54
+X 30 wordpkg.ads
+10k9*WordPkg 54e12 31|2r9 8r5 32|3r14 46r5
+12R10*word 52e15 31|3r26 3r39 4r33 6r34 6r47 7r41 32|4r31 4r44 5r21 12r38
+. 17r38 17r51 19r21 32r46
+50a9 Letters{string} 32|7m20 7r66 14m19 14r65 23r40 25m36 25r63 33r39 38r40
+. 40r61 44m19
+51i9 Length{natural} 32|8m20 8r32 22r31 28m20 37r31 43m19
+X 31 wordpkg-wordops.ads
+2k17 wordops 30|10k9 31|8l13 8e20 32|3b22 46l13 46t20
+3V14*to_Upper{30|12R10} 3>23 32|4b19 10l13 10t21
+3r23 w{30|12R10} 32|4b28 7r64 8r30
+4U14*to_Upper 4=23 32|12b19 15l13 15t21
+4r23 w{30|12R10} 32|12b28 14m17 14r63
+6V14*remove_NonLetter{30|12R10} 6>31 32|17b18 30l13 30t29
+6r31 w{30|12R10} 32|17b35 22r29 23r38 25r61
+7U14*remove_NonLetter 7=31 32|32b19 45l13 45t29
+7r31 w{30|12R10} 32|32b36 33r37 37r29 38r38 40r59 43m17 44m17
+X 32 wordpkg-wordops.adb
+5r17 w2{30|12R10} 7m17 8m17 9r24
+18i17 letter_count{natural} 21m17 24m33 24r49 25r44 28r30
+19r17 w2{30|12R10} 25m33 28m17 29r24
+22i21 i{integer} 23r48 25r71
+33a17 new_word{string} 40m33 44r30
+34i17 letter_count{natural} 36m17 39m33 39r49 40r42 43r29
+37i21 i{integer} 38r48 40r69
+

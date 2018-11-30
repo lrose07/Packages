@@ -1,0 +1,101 @@
+V "GNAT Lib v2014"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U pals%b		pals.adb		ca18872a NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.characters%s	a-charac.ads		a-charac.ali
+Z ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W wordpkg%s		wordpkg.adb		wordpkg.ali
+W wordpkg.palindromes%s	wordpkg-palindromes.adb	wordpkg-palindromes.ali
+W wordpkg.wordops%s	wordpkg-wordops.adb	wordpkg-wordops.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-charac.ads		20140406181359 2d3ec45b ada.characters%s
+D a-chahan.ads		20140406181359 1601a50f ada.characters.handling%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-inteio.ads		20140406181359 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-textio.ads		20140406181359 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140406181359 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-cstrea.ads		20140406181357 febc86ed interfaces.c_streams%s
+D pals.adb		20181126195608 3a28eb06 pals%b
+D system.ads		20140406181356 bd760655 system%s
+D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-ficobl.ads		20140406181355 078245e4 system.file_control_block%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+D wordpkg.ads		20181125223604 c204a758 wordpkg%s
+D wordpkg.adb		20181122142815 a77be6f0 wordpkg%b
+D wordpkg-palindromes.ads  20181125232428 37cb3921 wordpkg.palindromes%s
+D wordpkg-palindromes.adb  20181126183431 95f3c0f5 wordpkg.palindromes%b
+D wordpkg-wordops.ads	20181122142844 cbd98e25 wordpkg.wordops%s
+D wordpkg-wordops.adb	20181126195532 0344ab3c wordpkg.wordops%b
+X 1 ada.ads
+16K9*Ada 19e8 15|5r6 5r23 6r6 6r31
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 15|6w10 6r35
+X 10 a-textio.ads
+49K13*Text_IO 471e16 15|5w10 5r27
+166U14*New_Line 15|31s17 38s25 43s25 48s25 53s25 56s17
+184V13*End_Of_File{boolean} 15|22s19
+242U14*Put 15|29s17 32s17 35s25 37s25 39s25 42s25 44s25 47s25 49s25 52s25
+X 15 pals.adb
+8U11*Pals 8b11 59l5 59t9
+9K17 my_word_package[34|10] 10r36 11r37 13r13
+10K17 my_word_ops[38|2] 14r13
+11K17 my_word_pals[36|6] 15r13
+17r9 current_word{34|12R10[9]} 23m21 25r43 26r60 30r21 34r27
+18r9 to_upper_word{34|12R10[9]} 25m17 27r73 36r30 40r29
+19r9 remove_non_letter_word{34|12R10[9]} 26m17 41r30 45r29
+20r9 to_upper_and_remove_non_letter_word{34|12R10[9]} 27m17 46r30 50r29
+X 34 wordpkg.ads
+10k9*WordPkg 15|1r6 2r6 3w6 9r40 34|54e12
+12R10 word 15|17r23[9] 18r24[9] 19r33[9] 20r46[9]
+41U15 Get 15|23s17[9]
+45U15 Put 15|30s17[9] 40s25[9] 45s25[9] 50s25[9]
+X 36 wordpkg-palindromes.ads
+6k17 Palindromes 15|2w14 36|8e24
+7V14 is_Pal{boolean} 15|34s20[11] 36s23[11] 41s23[11] 46s23[11]
+X 38 wordpkg-wordops.ads
+2k17 wordops 15|1w14 38|8e20
+3V14 to_Upper{34|12R10[15|9]} 15|25s34[10]
+6V14 remove_NonLetter{34|12R10[15|9]} 15|26s43[10] 27s56[10]
+
